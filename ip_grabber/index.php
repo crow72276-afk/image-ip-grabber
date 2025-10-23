@@ -48,7 +48,7 @@ elseif ($current_file === $log_file)
     /* Add password when viewing log file to 
     prevent anyone from viewing your logs. */
     $password = $_GET["p"] ?? '';
-    if($password === "mypassword123") // Change the 'mypassword123' to your desired password.
+    if($password === "Kingstonthesquidd") // Change the 'mypassword123' to your desired password.
     {
         $is404 = False;               // To prevent the execution of the 404 page condition below.
         $file = $log_file;
